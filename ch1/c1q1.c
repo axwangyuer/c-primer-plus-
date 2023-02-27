@@ -2,8 +2,7 @@
 
 int main(void)
 {
-    float num;
-    float total;
+    float num,total;
     printf("How many inches do you input?\n");//remainde users input inch
     scanf("%f",&num);
     total = num * 2.54;
