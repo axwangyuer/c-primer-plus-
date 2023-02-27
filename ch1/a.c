@@ -8,5 +8,5 @@ int main(void)
     scanf("%d",&num);
     total = num * 2.54;
     printf("%d inches equal %f centimeters.\n",num,total);//convert to centimeter
-    return 0;
+    return 0；
 }
