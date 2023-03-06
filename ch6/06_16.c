@@ -13,7 +13,7 @@ int main(void)
 {
     int years;
     double dap_money = 100,dei_money = 100;
-    for(years = 1; dap_money >= dei_money; years++)
+    for (years = 1; dap_money >= dei_money; years++)
     {
         dap_money = 100;
         dap_money = dap_money + dap_money * DAP_TAX * years;

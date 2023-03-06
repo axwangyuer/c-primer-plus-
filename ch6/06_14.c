@@ -13,13 +13,13 @@ int main(void)
     double fir_num[SIZE],sec_num[SIZE],total;
     int count,times;
     printf("Please input 8 numbers:");
-    for(count = 0; count < SIZE; count++)
+    for (count = 0; count < SIZE; count++)
     {
         scanf("%lf",&fir_num[count]);
         printf("%9.2lf ",fir_num[count]);
     }
     printf("\n");
-    for(count = 0; count < SIZE; count++)
+    for (count = 0; count < SIZE; count++)
     {
         for(times = 0,total = 0; times < count + 1; times ++)
         {

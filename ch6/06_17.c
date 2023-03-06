@@ -11,7 +11,7 @@ int main(void)
 {
     int years;
     double account = 1000000;
-    for(years = 1; account > 0; years++)
+    for (years = 1; account > 0; years++)
     {
         account = account * 0.08 + account; //计算每年的本金和利息总数
         account = account - 100000;

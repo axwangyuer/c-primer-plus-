@@ -11,10 +11,10 @@ int main(void)
     int upper_num,lower_num,sums;
     printf("Enter lower and upper integer limits:");
     scanf("%d %d",&lower_num,&upper_num);
-    while(upper_num > lower_num)
+    while (upper_num > lower_num)
     {
         int first_num = lower_num;
-        for(sums = 0; upper_num >= lower_num; lower_num++)
+        for (sums = 0; upper_num >= lower_num; lower_num++)
         {
             sums += lower_num * lower_num;
         }

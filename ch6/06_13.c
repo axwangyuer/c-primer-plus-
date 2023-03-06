@@ -12,7 +12,7 @@ int main(void)
 {
     int number[SIZE];
     int count,num;
-    for(count = 0,num = 2; count < SIZE; count++)
+    for (count = 0,num = 2; count < SIZE; count++)
     {
         number[count] = num;
         num = num * 2;

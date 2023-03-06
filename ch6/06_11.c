@@ -9,11 +9,11 @@ int main(void)
 {
     int index,number[SIZE];
     printf("Please input 8 intager number:");
-    for(index = 0; index <= SIZE; index++)  //读取8个数
+    for (index = 0; index <= SIZE; index++)  //读取8个数
     {
         scanf("%d",&number[index]);
     }
-    for(index = index - 1; index >= 0; index--)  //倒序打印8个数
+    for (index = index - 1; index >= 0; index--)  //倒序打印8个数
     {
         printf("%d ",number[index]);
     }

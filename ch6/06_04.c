@@ -8,9 +8,9 @@ int main(void)
 {
     int column,row;
     char letter;
-    for(column = 1,letter = 'A'; column <= 6; column++)
+    for (column = 1,letter = 'A'; column <= 6; column++)
     {
-        for(row = 0; row < column; row++,letter++)
+        for (row = 0; row < column; row++,letter++)
         {
             printf("%c",letter);
         }

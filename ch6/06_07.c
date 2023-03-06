@@ -12,7 +12,7 @@ int main(void)
     printf("Please input a volcabulary:");
     scanf("%s",volcabulary);
     size = strlen(volcabulary);
-    for(num = size - 1; num >= 0; num-- )
+    for (num = size - 1; num >= 0; num-- )
     {
         printf("%c",volcabulary[num]);
     }

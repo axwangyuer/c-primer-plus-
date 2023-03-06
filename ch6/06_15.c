@@ -12,13 +12,13 @@ int main(void)
     int count = 0;
     printf("please input some message:");
     scanf("%c",&letter);
-    while(letter != '\n')   //循环读入
+    while (letter != '\n')   //循环读入
     {
         array[count] = letter;
         scanf("%c",&letter);
         count++;
     }
-    for(;count >= 0; count--)  //循环输出
+    for (;count >= 0; count--)  //循环输出
     {
         printf("%c",array[count]);
     }

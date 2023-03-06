@@ -12,17 +12,17 @@ int main(void)
     printf("Please input a capital:");
     scanf("%c",&input);
     input_num  = input - 64;
-    for(column = 1; column <= input_num; column++)
+    for (column = 1; column <= input_num; column++)
     {
-        for(blank = 0; blank < input_num - column; blank++)  //控制空格
+        for (blank = 0; blank < input_num - column; blank++)  //控制空格
         {
             printf(" ");
         }
-        for(let_raise = 'A'; let_raise <= column + 64; let_raise++)  //控制升序
+        for (let_raise = 'A'; let_raise <= column + 64; let_raise++)  //控制升序
         {
             printf("%c",let_raise);
         }
-        for(let_down = let_raise - 2; let_down >='A'; let_down--)   //控制降序
+        for (let_down = let_raise - 2; let_down >='A'; let_down--)   //控制降序
         {
             printf("%c",let_down);
         }

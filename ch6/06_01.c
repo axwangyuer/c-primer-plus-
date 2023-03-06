@@ -9,7 +9,7 @@ int main(void)
     char array[26];
     char ch ;
     int num;
-    for(ch = 'a',num = 0; num < 26; ch++,num++)
+    for (ch = 'a',num = 0; num < 26; ch++,num++)
     {
         array[num] = ch;
         printf("%c ",ch);

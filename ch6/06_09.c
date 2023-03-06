@@ -12,7 +12,7 @@ int main(void)
 {
     float f1_num,f2_num,result;
     printf("Please input two float number(q to quit):");
-    while(scanf("%f %f",&f1_num,&f2_num) == 2)
+    while (scanf("%f %f",&f1_num,&f2_num) == 2)
     {
         result = calculator (f1_num,f2_num);  //函数调用
         printf("(%.3f - %.3f) / (%.3f * %.3f) = %.3f.\n",f1_num,f2_num,f1_num,f2_num,result);

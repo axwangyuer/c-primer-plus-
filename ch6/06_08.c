@@ -9,7 +9,7 @@ int main(void)
 {
     float f1_num,f2_num;
     printf("Please input two float number(q to quit):");
-    while(scanf("%f %f",&f1_num,&f2_num) == 2)
+    while (scanf("%f %f",&f1_num,&f2_num) == 2)
     {
         printf("(%.3f - %.3f) / %.3f * %.3f = %.3f.\n",f1_num,f2_num,f1_num,f2_num,(f1_num - f2_num) / (f1_num * f2_num));
         printf("Please input another two float number(q to quit):");

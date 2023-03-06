@@ -12,7 +12,7 @@
 int main(void)
 {
     int weeks,friends_num ;
-    for(weeks = 1,friends_num = 5; friends_num < 150; weeks++)
+    for (weeks = 1,friends_num = 5; friends_num < 150; weeks++)
     {
         printf("%d week(s) has %d friends.\n",weeks,friends_num);
         friends_num = (friends_num - weeks) * 2;

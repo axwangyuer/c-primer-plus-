@@ -13,7 +13,7 @@ int main(void)
     printf("Please input the lowest limits of exile:");
     scanf("%d",&low_limit);
     printf("number    square    cube\n");
-    for(column = low_limit; column <= high_limit; column++)
+    for (column = low_limit; column <= high_limit; column++)
     {
         printf("%-10d%-10d%-10d\n",column,column * column,column * column * column);
     }
