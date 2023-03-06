@@ -8,7 +8,7 @@ int main(void)
     scanf("%d",&sec_ope);
     printf("Now enter the first operand:");//提示用户输入求模的第一个整数
     scanf("%d",&fir_ope);
-    while(fir_ope > 0)
+    while (fir_ope > 0)
     {
         printf("%d %% %d is %d\n",fir_ope,sec_ope,fir_ope % sec_ope);
         printf("Enter next number for first operand:(<=0 to quit)");

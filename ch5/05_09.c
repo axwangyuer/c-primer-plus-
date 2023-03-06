@@ -5,7 +5,7 @@ int main(void)
 {
     double get_temp; 
     printf("Please input a ahrenheit temperaturn number:");//要求用户输入一个华氏温度
-    while(scanf("%lf",&get_temp) == 1)
+    while (scanf("%lf",&get_temp) == 1)
     {
         Temperatures(get_temp);
         printf("Please input aother ahrenheit temperaturn number(q to quit):");

@@ -7,7 +7,7 @@ int main(void)
     float height,feet,inch;// feet英尺，inch英寸
     printf("Enter a height in centimeters:");//提示用户输入身高（单位cm）
     scanf("%f",&height);
-    while(height > 0)//分别以厘米，英尺，英寸为单位显示该值，允许有小数部分 
+    while (height > 0)//分别以厘米，英尺，英寸为单位显示该值，允许有小数部分 
     {
         feet = height / FEET_TO_CM;
         inch = height / INCH_TO_CM;
