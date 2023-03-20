@@ -26,6 +26,5 @@ int main(void)
         }
         printf("\nPlease input another number:\n");
     }
-    
     return 0;
 }
